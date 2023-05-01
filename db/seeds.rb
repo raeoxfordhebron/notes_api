@@ -6,5 +6,8 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
+Note.create(message: "hello", user_id: 1)
+Note.create(message: "hello2", user_id: 1)
+Note.create(message: "hello3", user_id: 1)
 
-
+User.create(username: "raehebron2", password: "cheese", age: 28)
